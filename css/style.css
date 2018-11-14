@@ -3,7 +3,7 @@
 /* link the web font used for the level 1 heading here */
 @font-face {
   font-family: "Baskerville";
-  src: url("./fonts/Baskerville.ttc");
+  src: local("./fonts/Baskerville.ttc");
 }
 /*////////// Global Styles //////////*/
 
@@ -11,6 +11,10 @@ body {
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
+}
+
+h1 {
+  font-family: "Baskerville";
 }
 
 .wrapper {
