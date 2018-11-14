@@ -13,6 +13,15 @@ body {
 	font-family: 'Times New Roman', serif; 
 }
 
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 0 45px 20px;
+}
+
+/* Write all remaining styles here */
+
 h1 {
   padding-bottom: 10px;
 	margin: 0 0 5px;
@@ -22,11 +31,3 @@ h1 {
 	border-bottom: 1px solid #ccc;
 }
 
-.wrapper {
-	width: 960px;
-	margin: 0 auto;
-	background: #fff;
-	padding: 0 45px 20px;
-}
-
-/* Write all remaining styles here */
